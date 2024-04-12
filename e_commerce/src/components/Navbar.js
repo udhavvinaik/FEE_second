@@ -16,7 +16,7 @@ export default function Navbar() {
             <Link to="/" className='text-white'>Home</Link>
             </li>
             <li>
-            <Link to="/about" className='text-white'>About</Link>
+            <Link to="/products" className='text-white'>Products</Link>
             </li>
             <li>
             <Link to="/contact" className='text-white'>Contact</Link>
