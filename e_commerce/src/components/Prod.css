@@ -1,0 +1,138 @@
+.Prod{
+    width: 100vw;
+    height: 92vh;
+}
+.Prod .outerdiv{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    width: 95%;
+    height: 90%;
+    margin: auto;
+    margin-top: 2.3%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Prod .innerdiv{
+    width: 98%;
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+}
+.Prod .sub1{
+
+    height: 100%;
+    width: 36%;
+}
+.Prod .sub2{
+
+    height: 100%;
+    width: 64%;
+}
+.Prod .subsub2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 2.5%;
+    margin-left: 7%;
+
+    
+}
+.Prod .des{
+    width: 55%;
+    text-align: justify;
+}
+.Prod .sizes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    
+}
+.Prod .ss{
+    height: 50px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 1.1rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.Prod .ss:hover{
+    border: 2px solid black;
+}
+
+
+.Prod .sizee{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-top: 4%;
+
+}
+.Prod .h22{
+    margin-bottom: 1.5%;
+}
+.Prod .sec{
+    color: black;
+    font-size: small;
+}
+.Prod .fir{
+    font-weight: bolder;
+}
+
+.Prod .buttons{
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    justify-content: space-between;
+    margin-top: 8%;
+}
+.Prod .b1{
+    width: 400px;
+    border-radius: 1.5rem;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bolder;
+}
+.Prod .b1:hover{
+    background-color: #f7b6339f;
+    border: 3px solid #F7B733;
+}
+.Prod .b2{
+    width: 50px;
+    height: 50px;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    border: 1px solid grey;
+    background-color: white;
+    cursor: pointer;
+}
+.Prod .b2:focus .fa-heart{
+    color: red;
+    transform: scale(1.2);
+}
+
+
+
+
+.slick-prev:before,
+.slick-next:before {
+  content: "";
+  background-color: black;
+  border-radius: 1.5rem;
+}

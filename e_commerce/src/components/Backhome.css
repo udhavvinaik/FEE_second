@@ -6,8 +6,8 @@
 }
 .Backhome .ontop{
     position: absolute;
-    right: 6%;
-    top: 33%;
+    top: 3%;
+    right: 5%;
 }
 .Backhome .subtop{
     display: flex;
@@ -29,11 +29,21 @@
     width: 120px;
     font-size: 2 rem;
     font-weight: bold;
-    border: 1px solid black;
+    border: none;
     border-radius: 1.05rem;
+    background-color: #FC4A1A;
+    
+}
+
+.Backhome .dd{
+    text-decoration: none;
+    color: black;
 }
 .Backhome button:hover{
     cursor: pointer;
-    background-color: white;
-    color: #563C16;
+    background-color: #DFDCe3;
+
+}
+.Backhome button:hover .dd{
+    color: #FC4A1A;
 }

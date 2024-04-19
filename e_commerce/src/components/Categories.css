@@ -1,0 +1,36 @@
+.Categories .catholder{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5%;
+    cursor: pointer;
+    overflow: hidden;
+}
+.Categories .cat{
+    height: 100%;
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 8%;
+    margin-left: 1.5%;
+}
+.Categories .catimg{
+    height: 70%;
+    border-radius: 1.2rem;
+}
+.Categories .catname{
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 3%;
+}
+.Categories .head{
+    text-align: center;
+    margin-bottom: 1.5%;
+    padding: 1.5%;
+}
+.Categories .cat:hover .catimg{
+    transform: scale(1.05);
+}

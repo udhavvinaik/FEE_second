@@ -1,0 +1,36 @@
+.Grid{
+    height: 500px;
+    margin-top: 3%;
+    margin-bottom: 6%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Grid .subgrid{
+    width: 90%;
+    margin: auto;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+.Grid .subb{
+    height: 100%;
+    width: 25%;
+}
+.Grid .subimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 1.1rem;
+}
+
+.gg .over{
+    position: absolute;
+    text-align: center;
+    top: 2.5%;
+    left: 8%;
+    font-weight: bolder;
+    font-size: 8rem;
+}

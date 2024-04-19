@@ -29,7 +29,7 @@
     flex-direction: row;
     align-items: center;
 }
-.Home , .Contact , .Products , .Cart{
+.Home , .Contact , .Products , .Cart ,.Prod{
     position: absolute;
     top: 8vh;
 }

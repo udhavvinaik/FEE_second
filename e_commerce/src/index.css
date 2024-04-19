@@ -1,19 +1,40 @@
-
-.bg-tulip{
-    background-color: #F2AB39;
-}
-.text-tulip{
-    color: #F2AB39;
-}
-.bg-punga{
-    background-color: #563C16;
-}
-.text-punga{
-    color: #563C16;
+.text-black{
+    color: black;
 }
 .text-white{
     color: white;
 }
+.bg-fresh{
+    background-color: #4ABDAC;
+}
+.text-fresh{
+    color: #4ABDAC;
+}
+.bg-vermi{
+    background-color: #FC4A1A;
+}
+.text-vermi{
+    color: #FC4A1A;
+}
+.bg-sun{
+    background-color: #F7B733;
+}
+.text-sun{
+    color: #F7B733;
+}
+.bg-clean{
+    background-color: #DFDCe3;
+}
+.text-clean{
+    color: #DFDCe3;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

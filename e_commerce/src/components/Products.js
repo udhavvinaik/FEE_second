@@ -1,9 +1,12 @@
 import React from 'react'
-import ProductCard from './Demo'
+import ProductCard from './ProductCard'
+import Grid from './Grid'
+import Categories from './Categories'
 export default function Products() {
   return (
     <div className='Products'>
-        <h1>Products</h1>
+        <Grid/>
+        <Categories/>
         <ProductCard/>
     </div>
   )

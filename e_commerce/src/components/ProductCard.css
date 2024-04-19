@@ -1,0 +1,61 @@
+
+.ProductCard .holder{
+    
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 10.5rem;
+    row-gap: 7px;
+    margin: auto;
+    
+}
+
+.ProductCard .card{
+    height: fit-content;
+    width: 220px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 2px;
+    cursor: pointer;
+    
+}
+
+.ProductCard .cardimg{
+    height: 240px;
+    width: 220px;
+}
+
+.ProductCard .cardbtn{
+    height: 40px;
+    width: 100px;
+    border-radius: 1.2rem;
+    border: none;
+    margin-top: 7%;
+    font-weight: bold;
+}
+.ProductCard .cardbtn:hover{
+    cursor: pointer;
+    color: white;
+    transform: scale(1.08);
+}
+.ProductCard .subdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-bottom: 10%;
+}
+.Home .lower{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.ProductCard .bn{
+    text-decoration: none;
+}
