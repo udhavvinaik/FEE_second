@@ -33,6 +33,14 @@ export default function Prod() {
       const handleSizeClick = (size) => {
         setSelectedSize(size); // Update state on click
       };
+
+    const send = (obj) => {
+        console.log("send function");
+        console.log(obj);
+        sessionStorage.setItem(obj.id,JSON.stringify(obj));
+    };
+
+    
   return (
 
     <div className='Prod bg-sun'>
@@ -63,7 +71,7 @@ export default function Prod() {
                             <div className='ss' onClick={() => handleSizeClick('XL')} style={{ borderColor: selectedSize === 'XL' ? 'black' : 'grey' }}>XL</div>
                         </div>
                         <div className='buttons'>
-                            <button className='b1 bg-sun' >Add To Cart</button>
+                            <button className='b1 bg-sun' onClick={()=>send(prod)} >Add To Cart</button>
                             <button className='b2' ><i class="fa-solid fa-heart"></i></button>
                         </div>
                     </div>
