@@ -5,15 +5,14 @@
     background-size: cover;
 }
 .Backhome .ontop{
-    position: absolute;
-    top: 3%;
-    right: 5%;
+    position: relative;
+    top: 12rem;
+    left: 47rem;
 }
 .Backhome .subtop{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
     gap: 1.8rem;
 }
 .Backhome h1{

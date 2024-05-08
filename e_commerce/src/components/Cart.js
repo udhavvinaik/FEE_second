@@ -12,6 +12,10 @@ export default function Cart() {
   arr.map((key) => getitem(key));
   data.map((key)=>{total += key.price;n+=1;});
   
+  const rem = (ite)=>{
+    sessionStorage.removeItem(ite);
+    alert("Item successfully deleted from CART , kindly refresh");
+  }
   
 
 
@@ -33,7 +37,7 @@ export default function Cart() {
                     </div>
                 </div>
                 <div className="actions">
-                    <button className="delete-button" onClick={()=>sessionStorage.removeItem(item.id)}>Delete</button>
+                    <button className="delete-button" onClick={()=>rem(item.id)}>Delete</button>
                     <button className="save-button">Save for Later</button>
                 </div>
             </div>

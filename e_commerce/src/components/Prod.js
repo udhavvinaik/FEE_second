@@ -23,21 +23,22 @@ export default function Prod() {
     const imageUrls = prod.images || [];
     const settings = {
         arrows: true,
-        dots: true, // Enable carousel indicator dots
-        infinite: true, // Enable continuous looping
-        speed: 500, // Transition speed in milliseconds
-        slidesToShow: 1, // Number of slides visible at once
-        slidesToScroll: 1, // Number of slides to scroll per swipe/click
+        dots: true,
+        infinite: true,
+        speed: 500, 
+        slidesToShow: 1, 
+        slidesToScroll: 1, 
       };
 
       const handleSizeClick = (size) => {
-        setSelectedSize(size); // Update state on click
+        setSelectedSize(size); 
       };
 
     const send = (obj) => {
         console.log("send function");
         console.log(obj);
         sessionStorage.setItem(obj.id,JSON.stringify(obj));
+        alert("Item added to cart");
     };
 
     
