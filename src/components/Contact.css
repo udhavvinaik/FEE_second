@@ -1,9 +1,7 @@
 
-.Contact{
-    margin-left: 24rem;
-    margin-top: 2rem;
-}
 .Contact .contact-us {
+  margin-left: 24rem;
+    margin-top: 2rem;
     background-image: url("https://images.unsplash.com/photo-1604432486679-68ea3fecbe2b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG11c3RhcmR8ZW58MHx8MHx8fDA%3D");
     background-size: cover;
     background-position: center;

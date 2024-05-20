@@ -5,7 +5,7 @@
     background-size: cover;
 }
 .Backhome .ontop{
-    position: relative;
+    position:absolute;
     top: 12rem;
     left: 47rem;
 }

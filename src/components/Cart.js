@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Cart.css'
 import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 export default function Cart() {
   let arr = Object.keys(sessionStorage);
   const data = [];
@@ -22,6 +23,7 @@ export default function Cart() {
   return (
 
     <div className='Cart'>
+        <Navbar/>
         <div className="container">
           {data.map((item) => (
             <div className="cart-item" key={item.id}>

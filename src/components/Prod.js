@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Navbar from './Navbar';
 
 export default function Prod() {
     const [selectedSize, setSelectedSize] = useState('');
@@ -45,6 +46,7 @@ export default function Prod() {
   return (
 
     <div className='Prod bg-sun'>
+        <Navbar/>
         <div className='outerdiv'>
             <div className='innerdiv'>
                 <div className='sub1 bg-fresh'>

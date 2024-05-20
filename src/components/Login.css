@@ -1,0 +1,130 @@
+/* Login.css */
+
+.Login{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f0f2f5;
+}
+
+.Login .image {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login .image img {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.Login form {
+  width: 35%;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Login h3 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.Login .form-group {
+  margin-bottom: 15px;
+}
+
+.Login .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.Login .form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.Login .form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.Login .btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login .btn:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.Login .btn:hover {
+  background-color: #0056b3;
+}
+
+.Login .btn:active {
+  transform: scale(0.95);
+}
+
+.Login div > a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.Login div > a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .Login, .Register {
+      flex-direction: column;
+  }
+
+  .Login .image {
+      width: 100%;
+      height: 50%;
+  }
+
+  .Login form {
+      width: 100%;
+      height: 50%;
+      margin-top: 20px;
+  }
+
+  .image img {
+      height: 100%;
+      width: 100%;
+  }
+}

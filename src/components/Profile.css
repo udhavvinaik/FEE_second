@@ -1,0 +1,52 @@
+/* Profile.css */
+
+.Profilegg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f2f5;
+    height: 90vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.Profile h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.Profile div {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.Profile button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Profile button:hover {
+    background-color: #0056b3;
+}
+
+.Profile button:active {
+    transform: scale(0.95);
+}
+
+.Profile .loading {
+    font-size: 1.5em;
+    color: #888;
+}
+
+

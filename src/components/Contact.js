@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import './Contact.css' 
+import Navbar from './Navbar';
 
 function Contact() {
 	const [name, setName] = useState('')
@@ -19,6 +20,7 @@ function Contact() {
 
 	return (
     <div className='Contact'>
+		<Navbar/>
 		<div className="contact-us">
 			<div className="container">
 				<h1 className="title">Contact Us</h1>
